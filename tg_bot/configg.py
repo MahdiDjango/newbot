@@ -6,9 +6,11 @@ class Development(Config):
     OWNER_ID = 727451676  # my telegram ID
     OWNER_USERNAME = "@RosenBlack"  # my telegram username
     # my api key, as provided by the botfather
-    API_KEY = "2036745331:AAHHLNM3sTp2kevEaD4TLMOwkwkUYTqz83A"
+    #API_KEY = "2036745331:AAHHLNM3sTp2kevEaD4TLMOwkwkUYTqz83A"
     #SQLALCHEMY_DATABASE_URI = 'postgresql://djghjcfyuthroj:186c684af62049d99c9f50a99487f124b8d1363686b31bbb43eff83cc992fc3f@ec2-35-174-118-71.compute-1.amazonaws.com:5432/d4oeb647ivdgbm'  # sample db credentials
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:72S4oFdjxZrMKjbdT2RK@containers-us-west-16.railway.app:8038/railway'
+    #SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:72S4oFdjxZrMKjbdT2RK@containers-us-west-16.railway.app:8038/railway'
+    API_KEY = "2071942377:AAGaNx4Fi0AgJNHy2mt890f7hiZa_RL9QQo"
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:l2zo1TXnsqRTUvh7GukU@containers-us-west-20.railway.app:7809/railway'
     MESSAGE_DUMP = '-1234567890'  # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
     # List of id's for users which have sudo access to the bot.
